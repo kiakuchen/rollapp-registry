@@ -1,0 +1,33 @@
+{
+  "chainId": "rank_2534759-1",
+  "chainName": "RANK",
+  "rpc": "http://165.22.242.38:26657",
+  "rest": "http://165.22.242.38:1317",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "RANK",
+      "baseDenom": "uRANK",
+      "decimals": 18,
+      "logo": "/logos/rank_2534759-1.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1125047988247593010",
+  "website": "",
+  "logo": "/logos/rank_2534759-1.png",
+  "ibc": {
+    "hubChannel": "channel-5654",
+    "channel": "channel-1",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0x26ad67",
+    "rpc": "http://165.22.242.38:8545"
+  },
+  "type": "RollApp",
+  "da": "Celestia",
+  "description": "Rank the dapps",
+  "analytics": true
+}
